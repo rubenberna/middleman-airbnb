@@ -49,6 +49,19 @@ title: Le Wagon - Middleman
             <a class="card-link" href="#" ></a>
           </div>
         </div>
+
+        <% data.flats.each do |owner, flat| %>
+        <div class="col-xs-12 col-sm-4 col-lg-4">
+          <div class= card style="background-image: url(<%= image_path flat.picture %>) ;"></div>
+          <div class="card-category"> <%= flat.city_name %></div>
+          <div class="card-description">
+            <h2> <%= flat.name %></h3>
+            <p> <%= flat.description %></p>
+          </div>
+          <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class:"card-user" %>
+          <%= link_to "", "flats/#{owner}.html", class: "card-link" %>
+        </div>
+        <% end %>
       </div>
     </div>
     <!-- </div> -->
@@ -65,4 +78,3 @@ title: Le Wagon - Middleman
         </p>
       </div>
     </div>
-

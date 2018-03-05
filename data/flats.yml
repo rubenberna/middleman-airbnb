@@ -1,0 +1,16 @@
+rubenberna:
+  name: "My crib"
+  description: "Modest mansion with a lake"
+  city_name: "Pyongyang"
+  view: true
+  rating: 2.5
+  picture: '/images/pyong.jpg'
+tchappe1:
+  name: "Chez Thierry"
+  description: "7m2 flat in Paris"
+  city_name: "Paris"
+  view: false
+  rating: 2
+  picture: '/images/paris.jpg'
+
+

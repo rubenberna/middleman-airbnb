@@ -3,28 +3,29 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: linear-gradient(0deg, #fff 50%, #F4F4F4 50%)
-}
-
-h1 {
-font-size: 30px;
-font-weight: bolder;
-margin-bottom: 30px;
-margin-top: 0;
-color: rgba(0,0,0,0.7);
+  background-image: linear-gradient(0deg, #fff 50%, $orange 50%);
+  h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    margin-top: 0;
+    color: rgba(0,0,0,0.7);
+  }
+  h2 {
+    font-size: 17px;
+    font-weight: bold;
+    color: rgba(0,0,0,0.6);
+  }
+  a {
+    color: #CFD7DF;
+    text-decoration: none;
+  }
 }
 
 .avatar {
   width: 150px;
 }
 
-h2 {
-      font-size: 17px;
-    font-weight: bold;
-    color: rgba(0,0,0,0.6);
-}
-
-a {
-color: #CFD7DF;
-text-decoration: none;
+.fa {
+  color: $gray;
 }
